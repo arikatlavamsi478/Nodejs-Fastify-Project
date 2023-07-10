@@ -1,2 +1,3 @@
 # Nodejs-Fastify-Project
-Created with CodeSandbox
+
+Node js - fastify - graph ql project
