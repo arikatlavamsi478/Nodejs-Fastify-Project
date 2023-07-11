@@ -18,6 +18,7 @@ const resolvers = require("./resolvers");
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  resolvers,
 });
 
 app.get("/", (req, res) => {
