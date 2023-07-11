@@ -17,11 +17,11 @@ const resolvers = require("./resolvers");
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my nodejs-fastify with graphql api");
+  res.send("Welcome to my nodejs-fastify with graphql api ");
 });
 app.register(server.createHandler());
 app.listen(port, () => console.info(`Server started on port ${port}`));
