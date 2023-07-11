@@ -1,0 +1,20 @@
+{
+  "name": "apollo-server-fastify",
+  "description": "",
+  "dependencies": {
+    "apollo-server-fastify": "2.21.0",
+    "fastify": "2.15.3",
+    "graphql": "14.5.8",
+    "graphql-tag": "^2.10.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
