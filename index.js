@@ -21,7 +21,7 @@ const server = new ApolloServer({
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my nodejs-fastify with nodejs-graphql api");
+  res.send("Welcome to my nodejs-fastify with nodejs-graphql api.  rrr");
 });
 app.register(server.createHandler());
 app.listen(port, () => console.info(`Server started on port ${port}`));
